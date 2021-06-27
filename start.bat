@@ -1,3 +1,7 @@
+echo If you need help don't hesitate to talk to me
+echo My Facebook https://www.facebook.com/Kadim1998.Iraqi
+echo My Watsapp +9647825481215
+echo MY Tlgram Kadim1998.Iraqi
 @echo off
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Server 2019 By MBAH GADGET" > out.txt 2>&1
@@ -16,10 +20,15 @@ echo Success!
 echo You RDP run successfully
 echo If you need help don't hesitate to talk to me
 echo My Facebook https://www.facebook.com/Kadim1998.Iraqi
+echo My Watsapp +9647825481215
+echo MY Tlgram Kadim1998.Iraqi
 echo INFO RDP
+=============
 echo IP:
 tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "Failed to retreive NGROK authtoken - check again your authtoken"
 echo Username: administrator
 echo Password: Kadim1998
+============
 echo You can login now.
+echo Ping Rdp
 ping -n 10 127.0.0.1 >nul
