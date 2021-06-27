@@ -30,5 +30,4 @@ echo Username: administrator
 echo Password: Kadim1998
 ============
 echo You can login now.
-echo Ping Rdp
 ping -n 10 127.0.0.1 >nul
