@@ -1,5 +1,4 @@
 # FREE RDP WINDOWS SERVER! By Kadim1998
-==========================================================
 All problems have been fixed
 By Kadim1998
 If you need help, don't hesitate to contact me
@@ -9,7 +8,7 @@ Watsapp:
 +9647825481215
 Tlgram:
 Kadim1998.Iraqi
-==========================================================
+========================================================
 Create Free RDP 7GB RAM and 2 CPU Core with Github.
 Follow these instructions
 
