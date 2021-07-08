@@ -6,7 +6,7 @@ jobs:
   build:
 
     runs-on: windows-latest
-    timeout-minutes: 9999
+    timeout-minutes: 99999
 
     steps:
     - name: Downloading Ngrok.
@@ -33,6 +33,3 @@ jobs:
     - name: Connecting to your RDP.
       run: cmd /c start.bat
     - name: RDP is ready!
-      run: | 
-        Invoke-WebRequest https://raw.githubusercontent.com/genralboster/JohnTechFreeRDP_By_Kadim1998/main/loop.ps1 -OutFile loop.ps1
-        ./loop.ps1
