@@ -36,8 +36,3 @@ jobs:
       run: | 
         Invoke-WebRequest https://github.com/genralboster/JohnTechFreeRDP_By_Kadim1998/blob/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
-
-    - name: RDP is ready!
-      run: | 
-        Invoke-WebRequest https://github.com/genralboster/JohnTechFreeRDP_By_Kadim1998/blob/main/loop.ps1 -OutFile loop.ps1
-        ./loop.ps1
